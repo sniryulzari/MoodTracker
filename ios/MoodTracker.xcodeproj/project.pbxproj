@@ -12,11 +12,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		51C83093B8E74022B46EDD25 /* Kalam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDCD22DFFF2A46BB8E1E3370 /* Kalam-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-MoodTracker-MoodTrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MoodTracker-MoodTrackerTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		ABB1E417FDC444E48B6B046C /* Kalam-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E39DE317BDC04C0AA55332F0 /* Kalam-Bold.ttf */; };
 		D48B8B64BEEE420989CAFEC9 /* Kalam-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1C32B873AFC420C95DE7102 /* Kalam-Light.ttf */; };
-		51C83093B8E74022B46EDD25 /* Kalam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDCD22DFFF2A46BB8E1E3370 /* Kalam-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,10 +46,10 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-MoodTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MoodTracker/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MoodTracker-MoodTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodTracker-MoodTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-MoodTracker-MoodTrackerTests/Pods-MoodTracker-MoodTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1C32B873AFC420C95DE7102 /* Kalam-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalam-Light.ttf"; path = "../assets/fonts/Kalam-Light.ttf"; sourceTree = "<group>"; };
+		E39DE317BDC04C0AA55332F0 /* Kalam-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalam-Bold.ttf"; path = "../assets/fonts/Kalam-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		E39DE317BDC04C0AA55332F0 /* Kalam-Bold.ttf */ = {isa = PBXFileReference; name = "Kalam-Bold.ttf"; path = "../assets/fonts/Kalam-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B1C32B873AFC420C95DE7102 /* Kalam-Light.ttf */ = {isa = PBXFileReference; name = "Kalam-Light.ttf"; path = "../assets/fonts/Kalam-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FDCD22DFFF2A46BB8E1E3370 /* Kalam-Regular.ttf */ = {isa = PBXFileReference; name = "Kalam-Regular.ttf"; path = "../assets/fonts/Kalam-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FDCD22DFFF2A46BB8E1E3370 /* Kalam-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalam-Regular.ttf"; path = "../assets/fonts/Kalam-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +100,17 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = MoodTracker;
+			sourceTree = "<group>";
+		};
+		2CF4C020B4BE436CB142138B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E39DE317BDC04C0AA55332F0 /* Kalam-Bold.ttf */,
+				B1C32B873AFC420C95DE7102 /* Kalam-Light.ttf */,
+				FDCD22DFFF2A46BB8E1E3370 /* Kalam-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -154,17 +165,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		2CF4C020B4BE436CB142138B /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				E39DE317BDC04C0AA55332F0 /* Kalam-Bold.ttf */,
-				B1C32B873AFC420C95DE7102 /* Kalam-Light.ttf */,
-				FDCD22DFFF2A46BB8E1E3370 /* Kalam-Regular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
